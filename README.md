@@ -128,7 +128,7 @@ Class Dinas adalah class yang mewarisi properti dan method dari class parentnya
 <hr>
 <h4>Task 5</h4>
 
-Terapkan polimorfisme untuk setidaknya 2 peran sesuai dengan studi kasus Izin Ketidakhadiran Pegawai.
+Menerapkan polimorfisme untuk setidaknya 2 peran sesuai dengan studi kasus Izin Ketidakhadiran Pegawai.
 
 
     class Database {
