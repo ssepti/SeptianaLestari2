@@ -12,6 +12,12 @@ Kelas : TI2D
 
 Membuat View berbasis OOP yang mengambil data dari MySQL dalam PHP
 
+<hr>
+Database dan Tabel yang digunakan
+
+![db1](https://github.com/user-attachments/assets/ec6339dc-72ef-4cbf-8d0e-401447b17b78)
+
+<hr>
 Mengambil Data dari database
 
     class Database {
@@ -118,7 +124,7 @@ Class Cuti adalah class yang mewarisi properti dan method dari class parentnya
     {
         parent::__construct();
     }
-
+Class Dinas adalah class yang mewarisi properti dan method dari class parentnya
 <hr>
 <h4>Task 5</h4>
 
@@ -143,7 +149,7 @@ Terapkan polimorfisme untuk setidaknya 2 peran sesuai dengan studi kasus Izin Ke
     }
     }
 
-Pada Class Database, dibuat method tampilData yang akan menampilkan Data izin Ketidakhadiran Pegawai secara keseuluruhan. Method ini kemudian diimplementasikan disetiap kelas turunannya dengan hasil yang berbeda.
+Pada Class Database, dibuat method tampilData yang akan menampilkan Data izin Ketidakhadiran Pegawai secara keseluruhan. Method ini kemudian diimplementasikan disetiap kelas turunannya dengan hasil yang berbeda.
 
     class Sakit extends Database {
       ...
